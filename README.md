@@ -2,10 +2,16 @@ issues-cli
 ======
 
 ## Install dependencies
+```sh
 $ mix deps.get
+```
 
 ## Create executable
+```sh
 $ mix escript.build
+```
 
 ## Use the app
-$ ./issues rails rails 3
+```sh
+$ ./issues rails rails 15
+```
